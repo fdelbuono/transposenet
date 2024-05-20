@@ -8,10 +8,10 @@ import json
 import logging
 from util import utils
 import time
-from kaggle.input.vitnet.datasets.CameraPoseDataset import CameraPoseDataset
-from kaggle.input.vitnet.datasets.MSCameraPoseDataset import MSCameraPoseDataset
-from kaggle.input.vitnet.models.pose_losses import CameraPoseLoss
-from kaggle.input.vitnet.models.pose_regressors import get_model
+from datasets.CameraPoseDataset import CameraPoseDataset
+from datasets.MSCameraPoseDataset import MSCameraPoseDataset
+from models.pose_losses import CameraPoseLoss
+from models.pose_regressors import get_model
 from os.path import join
 
 
